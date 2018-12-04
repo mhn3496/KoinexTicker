@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name":"Koinex Ticker" ,
+  "description": "This extension gives user the real time value of cryptos listed on koinex",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_title":"Koinex Ticker",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
